@@ -1,1 +1,16 @@
-<p>results works!</p>
+<table>
+  <thead>
+    <th>Food</th>
+    <th>Brand</th>
+    <th>Calories</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let result of results">
+      <td>{{ result.fields.item_name }}</td>
+      <td>{{ result.fields.brand_name }}</td>
+      <td>
+        {{ result.fields.nf_calories }}
+      </td>
+    </tr>
+  </tbody>
+</table>
