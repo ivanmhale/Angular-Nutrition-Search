@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./results.component.scss']
 })
 export class ResultsComponent implements OnInit {
-
+private modal;  
   constructor() { }
 
   ngOnInit() {
   }
-
+  openModal() {
+    console.log("modal opened");
+    
+ }
 }
