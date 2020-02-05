@@ -1,10 +1,7 @@
 <nav>
   <div class="title">
     <h1>Angular-Serverless-Nutrition-Lookup-Application</h1>
-    <form class="example-form">
-      <mat-form-field class="example-full-width">
-        <input matInput placeholder="Favorite food" value="Sushi" />
-      </mat-form-field>
-    </form>
+      <input placeholder="Search for a food/brand (e.g. sushi)" [(ngModel)]="term" >
+      <button (onclick)="submit()" >Submit</button>
   </div>
 </nav>

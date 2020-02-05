@@ -1,0 +1,33 @@
+@import "../../styles";
+
+table {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  thead {
+    th {
+      background-color: #a5a5af;
+      color: white;
+      font-size: 1.5rem;
+      border: 0.5rem solid white;
+
+      &:hover {
+        background-color: #77c9d4;
+        cursor: pointer;
+      }
+    }
+  }
+  tbody {
+    tr {
+      padding: 1rem;
+      cursor: pointer;
+      &:nth-of-type(odd) {
+        background-color: #eee;
+      }
+      &:hover {
+        background-color: rgb(57, 57, 57);
+        color: white;
+      }
+    }
+  }
+}

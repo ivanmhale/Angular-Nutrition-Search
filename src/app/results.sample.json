@@ -1,0 +1,706 @@
+{
+  "total_hits": 1612,
+  "max_score": 4.4242826,
+  "hits": [
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "552742aa9696aca360533e9c",
+      "_score": 4.4242826,
+      "fields": {
+        "item_id": "552742aa9696aca360533e9c",
+        "item_name": "Tacos",
+        "brand_name": "Old El Paso",
+        "nf_calories": 130,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "ddee2101d55d23c3e2b0c097",
+      "_score": 4.070676,
+      "fields": {
+        "item_id": "ddee2101d55d23c3e2b0c097",
+        "item_name": "Tacos",
+        "brand_name": "Rally's",
+        "nf_calories": 440,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5ca9a329da0ff0426cab1be8",
+      "_score": 3.8025217,
+      "fields": {
+        "item_id": "5ca9a329da0ff0426cab1be8",
+        "item_name": "Tacos",
+        "brand_name": "Mitienda by H-E-B",
+        "nf_calories": 180,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "58c64463c6be17be48bd76ab",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "58c64463c6be17be48bd76ab",
+        "item_name": "Fish Tacos",
+        "brand_name": "Pure Plates",
+        "nf_calories": 467,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c64062283e2d6d9c24cacca4",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "c64062283e2d6d9c24cacca4",
+        "item_name": "Carnitas Tacos",
+        "brand_name": "Uncle Julio's",
+        "nf_calories": 1020,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "692487101ac45f7c2388f318",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "692487101ac45f7c2388f318",
+        "item_name": "Shrimp Tacos",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 560,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "69248710bbe9465e7619a39d",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "69248710bbe9465e7619a39d",
+        "item_name": "Salmon Tacos",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 530,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5b6a992f69ee2eee4c14d594",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "5b6a992f69ee2eee4c14d594",
+        "item_name": "Street Tacos",
+        "brand_name": "Don Pancho",
+        "nf_calories": 150,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "543e73ccb475199e69517835",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "543e73ccb475199e69517835",
+        "item_name": "Street Tacos",
+        "brand_name": "Evol.",
+        "nf_calories": 220,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5457c5ec0d5781691593ed7f",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "5457c5ec0d5781691593ed7f",
+        "item_name": "Street Tacos",
+        "brand_name": "Evol.",
+        "nf_calories": 320,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "55d8de0fbf96e80a45519095",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "55d8de0fbf96e80a45519095",
+        "item_name": "Street Tacos",
+        "brand_name": "Evol.",
+        "nf_calories": 320,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444fb7bbe3351445980a7b",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "53444fb7bbe3351445980a7b",
+        "item_name": "Tomatoes, Tacos",
+        "brand_name": "Burrito Beach",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c64044468d5f3562c60935e7",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "c64044468d5f3562c60935e7",
+        "item_name": "Fish Tacos",
+        "brand_name": "Lazy Dog",
+        "nf_calories": 1560,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5db606124b7b59b4468ff3de",
+      "_score": 1.6724597,
+      "fields": {
+        "item_id": "5db606124b7b59b4468ff3de",
+        "item_name": "Vegan Tacos",
+        "brand_name": "Lean Kitchen",
+        "nf_calories": 405,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5684ebb217f221411f4d452c",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "5684ebb217f221411f4d452c",
+        "item_name": "Chicken Tacos",
+        "brand_name": "Don Miguel",
+        "nf_calories": 130,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "692487101766053855f09e49",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "692487101766053855f09e49",
+        "item_name": "Tacos, Guacamole",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 45,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5aed5806a91984115a13358f",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "5aed5806a91984115a13358f",
+        "item_name": "Street Tacos",
+        "brand_name": "Unknown",
+        "nf_calories": 140,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5b5acb2d3ff7fa7b4f8942fb",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "5b5acb2d3ff7fa7b4f8942fb",
+        "item_name": "Shrimp Tacos",
+        "brand_name": "Simple Truth",
+        "nf_calories": 220,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444b4dbbe335144598014e",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "53444b4dbbe335144598014e",
+        "item_name": "Chicken Tacos",
+        "brand_name": "Boston Pizza",
+        "nf_calories": 800,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444fb79a631f1645ed048b",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "53444fb79a631f1645ed048b",
+        "item_name": "Guacamole, Tacos",
+        "brand_name": "Burrito Beach",
+        "nf_calories": 35,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "559251e32dd39c840dc748e9",
+      "_score": 1.6035429,
+      "fields": {
+        "item_id": "559251e32dd39c840dc748e9",
+        "item_name": "Tortillas & Tacos",
+        "brand_name": "Jose's",
+        "nf_calories": 88,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "513fc9c9673c4fbc26003fa8",
+      "_score": 1.5979099,
+      "fields": {
+        "item_id": "513fc9c9673c4fbc26003fa8",
+        "item_name": "Fish Tacos",
+        "brand_name": "Claim Jumper",
+        "nf_calories": 850,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444b099a631f1645ecf803",
+      "_score": 1.5979099,
+      "fields": {
+        "item_id": "53444b099a631f1645ecf803",
+        "item_name": "Wahoo Tacos",
+        "brand_name": "Lyfe Kitchen",
+        "nf_calories": 610,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "ddee6615b24f53eeaecbc6d2",
+      "_score": 1.5979099,
+      "fields": {
+        "item_id": "ddee6615b24f53eeaecbc6d2",
+        "item_name": "Tofu Tacos",
+        "brand_name": "Mad Mex",
+        "nf_calories": 1230,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c640685028273d60be44ff5a",
+      "_score": 1.5979099,
+      "fields": {
+        "item_id": "c640685028273d60be44ff5a",
+        "item_name": "Crispy Tacos",
+        "brand_name": "Chuy's",
+        "nf_calories": 700,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "516d9a40e3afed032c7da73b",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "516d9a40e3afed032c7da73b",
+        "item_name": "Veggie Tacos",
+        "brand_name": "Ruby's Diner",
+        "nf_calories": 540,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "23cb88167ca00c15c10ab82f",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "23cb88167ca00c15c10ab82f",
+        "item_name": "Fish Tacos",
+        "brand_name": "Doolittles Restaurants",
+        "nf_calories": 350,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "32f1109367b4e6dd7a5fecc9",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "32f1109367b4e6dd7a5fecc9",
+        "item_name": "Breakfast Tacos",
+        "brand_name": "Lyfe Kitchen",
+        "nf_calories": 270,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "57204d71ba4c039e0a8fa976",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "57204d71ba4c039e0a8fa976",
+        "item_name": "Mini Tacos",
+        "brand_name": "Don Miguel",
+        "nf_calories": 170,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "55004276f2193679193e37a0",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "55004276f2193679193e37a0",
+        "item_name": "Fish Tacos",
+        "brand_name": "Archer Farms",
+        "nf_calories": 220,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "ae49310625a7c2e8b711854a",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "ae49310625a7c2e8b711854a",
+        "item_name": "Fish Tacos",
+        "brand_name": "Tijuana Flats",
+        "nf_calories": 110,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "23cb995377cb84e5c1aa396b",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "23cb995377cb84e5c1aa396b",
+        "item_name": "Farmhouse Tacos",
+        "brand_name": "Mimi's Cafe",
+        "nf_calories": 1050,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "692487100c7a744409ea3c84",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "692487100c7a744409ea3c84",
+        "item_name": "Tacos, Lime",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "69248710f050bc2f973c80fe",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "69248710f050bc2f973c80fe",
+        "item_name": "Tacos, Lettuce",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 5,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444b4d9a631f1645ecf8a2",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "53444b4d9a631f1645ecf8a2",
+        "item_name": "Shrimp Tacos",
+        "brand_name": "Boston Pizza",
+        "nf_calories": 870,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "de367518d65e61c36f00ae85",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "de367518d65e61c36f00ae85",
+        "item_name": "Fish Tacos",
+        "brand_name": "Daily Grill",
+        "nf_calories": 550,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5487070c4bf39fd74db263e9",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "5487070c4bf39fd74db263e9",
+        "item_name": "Street Tacos",
+        "brand_name": "Evol.",
+        "nf_calories": 260,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "ddee66158c92fe9e0b2a2d28",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "ddee66158c92fe9e0b2a2d28",
+        "item_name": "Chicken Tacos",
+        "brand_name": "Mad Mex",
+        "nf_calories": 1000,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5db5f8d7cd1547816bafe273",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "5db5f8d7cd1547816bafe273",
+        "item_name": "Breakfast Tacos",
+        "brand_name": "Lean Kitchen",
+        "nf_calories": 540,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5db5fd943f24e6ed09938ac5",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "5db5fd943f24e6ed09938ac5",
+        "item_name": "Steak Tacos",
+        "brand_name": "Lean Kitchen",
+        "nf_calories": 360,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5db605e21c1791996b56574d",
+      "_score": 1.5905888,
+      "fields": {
+        "item_id": "5db605e21c1791996b56574d",
+        "item_name": "Turkey Tacos",
+        "brand_name": "Lean Kitchen",
+        "nf_calories": 495,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5cb58336612f016820ac82cf",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "5cb58336612f016820ac82cf",
+        "item_name": "Lasagna Tacos",
+        "brand_name": "Titan",
+        "nf_calories": 310,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "53444fb7cd5bb303a94c4cd0",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "53444fb7cd5bb303a94c4cd0",
+        "item_name": "Lettuce, Tacos",
+        "brand_name": "Burrito Beach",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "56667da536f978d10cb4b100",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "56667da536f978d10cb4b100",
+        "item_name": "Jicama Tacos",
+        "brand_name": "Unknown",
+        "nf_calories": 13,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "58ec7ed5ed39208050c9069f",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "58ec7ed5ed39208050c9069f",
+        "item_name": "Jicama Tacos",
+        "brand_name": "Unknown",
+        "nf_calories": 13,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "692487106e53de99117e031c",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "692487106e53de99117e031c",
+        "item_name": "Tacos, Cilantro",
+        "brand_name": "Cafe Rio",
+        "nf_calories": 5,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "23cb9182bc532d16dbc34ec3",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "23cb9182bc532d16dbc34ec3",
+        "item_name": "Fish Tacos",
+        "brand_name": "Earls",
+        "nf_calories": 590,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "516d9a40e3afed032c7da739",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "516d9a40e3afed032c7da739",
+        "item_name": "Chicken Tacos",
+        "brand_name": "Ruby's Diner",
+        "nf_calories": 750,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "516d9a40e3afed032c7da73a",
+      "_score": 1.578801,
+      "fields": {
+        "item_id": "516d9a40e3afed032c7da73a",
+        "item_name": "Fish Tacos",
+        "brand_name": "Ruby's Diner",
+        "nf_calories": 880,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "ddee68829f8afbbe2ff446f4",
+      "_score": 1.5706689,
+      "fields": {
+        "item_id": "ddee68829f8afbbe2ff446f4",
+        "item_name": "Tuna Tacos",
+        "brand_name": "The Keg Steakhouse",
+        "nf_calories": 550,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    }
+  ]
+}
