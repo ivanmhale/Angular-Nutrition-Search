@@ -12,8 +12,10 @@ export class ResultsComponent implements OnInit {
 
   constructor(private http: SearchingService) {}
 
-  async ngOnInit() {
-    const response = await this.http.searchViaTerm("tacos");
-    this.results = response.hits;
+  ngOnInit() {
+    this.http.resultsUpdated.subscribe(
+      results => (this.results = results.hits)
+    );
+    this.http.searchViaTerm("tacos");
   }
 }

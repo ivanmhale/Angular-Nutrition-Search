@@ -1,10 +1,10 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import * as keys from "./keys.json";
-import { EventEmitter } from "protractor";
+import { EventEmitter } from "@angular/core";
 import { Observable } from "rxjs";
 
-interface resultsResponse {
+interface ResultsResponse {
   total_hits: number;
   max_score: number;
   hits: {
@@ -30,7 +30,8 @@ export class SearchingService {
   rootUrl = "https://api.nutritionix.com/v1_1";
   appId: string;
   appKey: string;
-  results: resultsResponse = null;
+  results: ResultsResponse = null;
+  resultsUpdated = new EventEmitter<ResultsResponse>();
 
   searchViaTerm(term: string) {
     this.http
@@ -38,8 +39,9 @@ export class SearchingService {
         // tslint:disable-next-line: max-line-length
         `${this.rootUrl}/search/${term}?results=0:50&fields=item_name,brand_name,item_id,nf_calories&appId=${this.appId}&appKey=${this.appKey}`
       )
-      .subscribe((results: resultsResponse) => {
-        this.results = results;
+      .subscribe((res: ResultsResponse) => {
+        console.log("results: ", res);
+        this.resultsUpdated.emit(res);
       });
   }
 
