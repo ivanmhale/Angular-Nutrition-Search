@@ -1,8 +1,8 @@
 <table>
   <thead>
-    <th>Food</th>
-    <th>Brand</th>
-    <th>Calories</th>
+    <th (click)="sortResults('item_name')">Food</th>
+    <th (click)="sortResults('brand_name')">Brand</th>
+    <th (click)="sortResults('nf_calories')">Calories</th>
   </thead>
   <tbody>
     <tr *ngFor="let result of results">

@@ -1,8 +1,8 @@
-import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import * as keys from "./keys.json";
-import { EventEmitter } from "@angular/core";
-import { Observable } from "rxjs";
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import * as keys from './keys.json';
+import { EventEmitter } from '@angular/core';
+import { Observable } from 'rxjs';
 
 interface ResultsResponse {
   total_hits: number;
@@ -24,10 +24,10 @@ interface ResultsResponse {
 }
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class SearchingService {
-  rootUrl = "https://api.nutritionix.com/v1_1";
+  rootUrl = 'https://api.nutritionix.com/v1_1';
   appId: string;
   appKey: string;
   results: ResultsResponse = null;
@@ -40,7 +40,7 @@ export class SearchingService {
         `${this.rootUrl}/search/${term}?results=0:50&fields=item_name,brand_name,item_id,nf_calories&appId=${this.appId}&appKey=${this.appKey}`
       )
       .subscribe((res: ResultsResponse) => {
-        console.log("results: ", res);
+        console.log('results: ', res);
         this.resultsUpdated.emit(res);
       });
   }
@@ -48,29 +48,5 @@ export class SearchingService {
   constructor(private http: HttpClient) {
     this.appId = keys.appId;
     this.appKey = keys.appKey;
-  }
-
-  sortByFoodNameAsc() {
-    this.results.hits.sort((a, b) => {
-      if (a.fields.item_name < b.fields.item_name) {
-        return -1;
-      }
-      if (a.fields.item_name > b.fields.item_name) {
-        return 1;
-      }
-      return 0;
-    });
-  }
-
-  sortByFoodNameDesc() {
-    this.results.hits.sort((a, b) => {
-      if (a.fields.item_name < b.fields.item_name) {
-        return 1;
-      }
-      if (a.fields.item_name > b.fields.item_name) {
-        return -1;
-      }
-      return 0;
-    });
   }
 }
