@@ -8,6 +8,7 @@ import Food from '../model/food';
 })
 export class ModalComponent implements OnInit {
 private selectedFood: Food;
+
   constructor() { }
 
   ngOnInit() {

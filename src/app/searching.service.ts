@@ -1,8 +1,8 @@
-import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import * as keys from "./keys.json";
-import { EventEmitter } from "protractor";
-import { Observable } from "rxjs";
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import * as keys from './keys.json';
+import { EventEmitter } from 'protractor';
+import { Observable } from 'rxjs';
 
 interface resultsResponse {
   total_hits: number;
@@ -24,10 +24,10 @@ interface resultsResponse {
 }
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class SearchingService {
-  rootUrl = "https://api.nutritionix.com/v1_1";
+  rootUrl = 'https://api.nutritionix.com/v1_1';
   appId: string;
   appKey: string;
   results: resultsResponse = null;
