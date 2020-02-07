@@ -1,31 +1,31 @@
-@import "../../styles";
+@import "../../styles.scss";
 
 table {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
   thead {
     th {
-      background-color: #a5a5af;
+      background-color: rgb(114, 114, 114);
       color: white;
       font-size: 1.5rem;
-      border: 0.5rem solid white;
-
+      padding: .5rem;
       &:hover {
-        background-color: #77c9d4;
+        background-color: $col-salmon;
         cursor: pointer;
       }
     }
   }
   tbody {
+    padding: 1rem;
     tr {
-      padding: 1rem;
       cursor: pointer;
       &:nth-of-type(odd) {
         background-color: #eee;
       }
       &:hover {
-        background-color: rgb(57, 57, 57);
+        background-color: $col-salmon;
         color: white;
       }
     }

@@ -1,0 +1,15 @@
+{
+  "item_id": "ABC123",
+  "item_name": "Fish Tacos",
+  "brand_name": "Terrek's",
+  "item_description": "They aight, mostly for the convenience",
+  "nf_calories": 1360,
+  "nf_total_fat": 35,
+  "nf_cholesterol": 35,
+  "nf_sodium": 500,
+  "nf_total_carbohydrate": 56,
+  "nf_protein": 17,
+  "nf_servings_per_container": 1,
+  "nf_serving_size_qty": 1,
+  "nf_serving_size_unit": "taco"
+}

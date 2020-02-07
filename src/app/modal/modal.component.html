@@ -1,1 +1,33 @@
-<p>modal works!</p>
+<div [ngStyle]="{ display: food ? 'block' : 'none' }" class="modal_backdrop">
+  <div class="modal_container">
+    <div class="modal_header">
+      <h3>{{ food?.item_name }}</h3>
+      <span (click)="unselectFood()">&times;</span>
+    </div>
+    <hr />
+    <div class="modal_list">
+      <span class="key">Brand</span
+      ><span class="value">{{ food?.brand_name }}</span>
+      <span class="key">Description</span
+      ><span class="value">{{ food?.item_description }}</span>
+      <span class="key">Calories</span
+      ><span class="value">{{ food?.nf_calories }}</span>
+      <span class="key">Total Fat</span
+      ><span class="value">{{ food?.nf_total_fat }}</span>
+      <span class="key">Cholesterol</span
+      ><span class="value">{{ food?.nf_cholesterol }}</span>
+      <span class="key">Sodium</span
+      ><span class="value">{{ food?.nf_sodium }}</span>
+      <span class="key">Carbohydrate</span
+      ><span class="value">{{ food?.nf_total_carbohydrate }}</span>
+      <span class="key">Protein</span
+      ><span class="value">{{ food?.nf_protein }}</span>
+      <span class="key">Servings per container</span
+      ><span class="value">{{ food?.nf_servings_per_container }}</span>
+      <span class="key">Serving Size</span
+      ><span class="value">{{
+        food?.nf_serving_size_qty + " " + food?.nf_serving_size_unit
+      }}</span>
+    </div>
+  </div>
+</div>

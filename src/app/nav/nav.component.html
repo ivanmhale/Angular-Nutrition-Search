@@ -1,7 +1,12 @@
 <nav>
   <div class="title">
     <h1>Angular-Serverless-Nutrition-Lookup-Application</h1>
-      <input placeholder="Search for a food/brand (e.g. sushi)" [(ngModel)]="term" >
-      <button (click)="submit()" >Submit</button>
+    <div class="form">
+      <input
+        placeholder="Search for a food/brand (e.g. sushi)"
+        [(ngModel)]="term"
+      />
+      <button (click)="submit()">Submit</button>
+    </div>
   </div>
 </nav>

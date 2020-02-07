@@ -1,10 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$col-dark: #333745;
+$col-pink: #e63462;
+$col-salmon: #fe5f55;
+$col-tea: #c7efcf;
+$col-cream: #eef5db;
 
-$col-dark: "#333745";
-$col-pink: "#e63462";
-$col-salmon: "#fe5f55";
-$col-tea: "#c7efcf";
-$col-cream: "#eef5db";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}

@@ -32,6 +32,7 @@ export class SearchingService {
   appKey: string;
   results: ResultsResponse = null;
   resultsUpdated = new EventEmitter<ResultsResponse>();
+  foodSelected = new EventEmitter<any>();
 
   searchViaTerm(term: string) {
     this.http
@@ -43,6 +44,18 @@ export class SearchingService {
         console.log('results: ', res);
         this.resultsUpdated.emit(res);
       });
+  }
+
+  searchViaId(id: string) {
+    this.http
+      .get(
+        `${this.rootUrl}/item?id=${id}&appId=${
+          this.appId
+        }&appKey=${this.appKey}`
+      ).subscribe((res) => {
+        console.log('Food result: ', res);
+        this.foodSelected.emit(res);
+      })
   }
 
   constructor(private http: HttpClient) {

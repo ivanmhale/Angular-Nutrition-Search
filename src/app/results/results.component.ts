@@ -27,6 +27,10 @@ export class ResultsComponent implements OnInit {
     // this.http.searchViaTerm("tacos");
   }
 
+  selectFood(id: string) {
+    this.http.searchViaId(id);
+  }
+
   sortResults(category: string) {
     // When a new column is clicked that is different from the current selected one,
     // set the current Sort Type to that column and sort ascendingly

@@ -1,0 +1,30 @@
+@import "../../styles.scss";
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+    color: $col-salmon;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  input {
+    padding: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: 1px solid $col-salmon;
+    color: $col-salmon;
+  }
+  button {
+    padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: $col-salmon;
+    border: 1px solid $col-salmon;
+    color: white;
+    &:hover {
+      border-color: $col-tea;
+      background-color: $col-tea;
+    }
+  }
+}
